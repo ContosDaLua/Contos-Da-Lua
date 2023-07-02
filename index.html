@@ -1,7 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<meta charset="utf-8">
-  
-<title>Contos Da Lua</title>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contos da Lua</title>
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- BootStrap -->
+
+    <link rel="icon" type="image/x-icon" href="./watermark.png">
+    <style>
+        /* ===== Scrollbar CSS ===== */
+        /* Firefox */
+        * {
+            scrollbar-width: auto;
+            scrollbar-color: #333333 #333333;
+        }
+
+        /* Chrome, Edge, and Safari */
+        *::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        *::-webkit-scrollbar-track {
+            background: #333333;
+        }
+
+        *::-webkit-scrollbar-thumb {
+            background-color: #333333;
+            border-radius: 10px;
+            border: 2px solid #ffffff;
+        }
+
+
+        @font-face {
+            font-family: 'Benguiat';
+            src: url(Font/BenguiatStd-Medium.otf);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: 'Benguiat';
+        }
+        body{
+            height: 100%;
+            background-color: rgb(0, 0, 0);
+        }
+        body .gif-background img{
+            position: relative;
+            z-index: -1;
+            width: 100%;
+        }
+        body .background-fade{
+            height: 100%;
+            width: 100%;
+            background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 15%);
+            z-index: 2;
+        }
+
+        .gif-background{
+            width: 100%;
+            position: absolute;
+        }
+
+        .paginas-container{
+            position: relative;
+        }
+
+        .paginas-container img{
+            width: 100%;
+        }
+    </style>
 </head>
-<h1>Teste</h1>
+<body>
+    <div class="gif-background">
+        <div class="background-fade">
+            <img src="./aesthetic-icegif-12.gif" alt="Fundo Estrelado">
+        </div>
+    </div>
+    <div class="container text-center py-3">
+        <div class="paginas-container mt-3">
+            <h1 class="mb-5">Contos da Lua</h1>
+            <img src="/ContosDaLua/Contos da Lua_001.png" alt="pg1">
+            <img src="/ContosDaLua/Contos da Lua_002.png" alt="pg2">
+            <img src="/ContosDaLua/Contos da Lua_003.png" alt="pg3">
+            <img src="/ContosDaLua/Contos da Lua_004.png" alt="pg4">
+            <img src="/ContosDaLua/Contos da Lua_005.png" alt="pg5">
+            <img src="/ContosDaLua/Contos da Lua_006.png" alt="pg6">
+            <img src="/ContosDaLua/Contos da Lua_007.png" alt="pg7">
+            <img src="/ContosDaLua/Contos da Lua_008.png" alt="pg8">
+            <img src="/ContosDaLua/Contos da Lua_009.png" alt="pg9">
+            <img src="/ContosDaLua/Contos da Lua_010.png" alt="pg10">
+            <img src="/ContosDaLua/Contos da Lua_011.png" alt="pg11">
+            <img src="/ContosDaLua/Contos da Lua_012.png" alt="pg12">
+            <img src="/ContosDaLua/Contos da Lua_013.png" alt="pg13">
+            <img src="/ContosDaLua/Contos da Lua_014.png" alt="pg14">
+        </div>
+        <div class="assinatura">
+            <p><b>Autora:</b></p>
+            <p>Pie the Lune</p>
+            <br>
+            <p><b>Website feito por:</b></p>
+            <p>Panda Destruidor e PhantonOS16</p>
+        </div>
+    </div>
+</body>
+</html>
